@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Основы HTML</title> 
+        <link rel="stylesheet" href="../CSS/basicstyle.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="all">
+            <aside class="acss">
+                <a href="../../coursers.html" class="t7"><img src="IMG/iconback.svg" alt=""></a>
+                <ul>
+                    <!--В структуре указать про закрывающиеся и не теги и про блочные и строчные-->
+                    <a href="basiccss1.html" class="t8" ><li>CSS-правила и селекторы</li></a>
+                    <a href="basiccss2.html" class="t9"><li>Свойства и значения<br>
+                        Каскадирование</li></a>
+                    <a href="basiccss3.html" class="t10"><li>Оформление текста.Часть 1</li></a>
+                    <a href="basiccss4.html" class="t11"><li>Оформление текста.Часть 2</li></a>
+                    <a href="basiccss5.html" class="t12"><li>Стили для блоков</li></a>
+                    <a href="test2.html" class="t13"><li>Проверка знаний</li></a>
+                </ul>
+            </aside>
+
+            <main>
+            <section class="info">
+
+                <!--CSS-правила-->
+                <h1>CSS-правила</h1>
+                <dl>
+                    <dt>Что такое CSS?</dt>
+                    <dd>CSS - это каскадные таблицы стилей , которые например используются для визуального оформления вашего сайта.
+                        <br>CSS можно писать внутри HTML-документа в теге style , распологающемся в head ,
+                        <br>но более правильно это делать в отдельном файле .css и подключать его в html документ при помощи link</dd>
+                    <img src="IMG/linkcss.png" alt="Подключение файла css">
+
+                    <dt>Cинтаксис CSS</dt>
+                    <dd>CSS-файл состоит из CSS-правил.
+                        <br>Само же CSS правило состоит из селектора и задаваемых ему свойств со значениями. </dd>
+                    <img src="IMG/sint.png" alt="Синтаксис файла css">
+                </dl>
+
+
+                  <!--heDER FOOTER MAIN-->
+
+                <h2>Селекторы</h2>
+                <dl>
+                    <dt>Селекторы тегов</dt>
+                    <dd>Один из "типов" селекторов - это тег.Например , если в HTML-файле вы задали заголовок h2
+                        <br>и хотите ему задать цвет , то можно как селектор взять этот тег и в CSS указать h2
+                    </dd>
+                    <img src="IMG/tegsel.png" alt="Использование тега как селектора">
+
+                    <dt>Селекторы классов</dt>
+                    <dd>Еще один "тип" селекторов - это селекторы класса.Если например вы хотите задать фон блоку div с классом (div class="name"),
+                        <br> то в CSS файле перед указание селектора должен быть символ (.).
+                    </dd>
+                    <img src="IMG/classsel2.png" alt="Использование тега как класс">
+                    <br> <img src="IMG/classsel1.png" alt="Html код">
+
+
+                    <dt>ID селектор</dt>
+                    <dd>Принцип работы как у селектора класса , только за место класса в HTML-файле указывается id ,
+                        <br>а в CSS вместо "." ставится "#" </dd>
+
+                    <dt>Группировка селекторов</dt>
+                    <dd>Если задаваемы свойства и значения используются одинаковые для несколько селекторов ,
+                        <br> то можно перечислить селекторы через запятую.
+                    </dd>
+                    <img src="IMG/spissel.png" alt="Группировка селекторов">
+
+                    <dt>Вложенные селекторы</dt>
+                    <dd>Часто бывает так , что в HTML коде в один тег вкладывается другой(напремер в nav вложен теги а и p) , а в документе теги а
+                        <br>используется не один раз , но нужно вам задать стиль только для a в nav , то можно вложить селектор в селектор в CSS
+                    </dd>
+                    <img src="IMG/vloz.png" alt="Вложенные селекторы">
+                </dl>
+            </div>
+            </main>
+
+        </div>
+    </body>
+</html>

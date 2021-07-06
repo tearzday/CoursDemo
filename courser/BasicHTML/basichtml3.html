@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Основы HTML</title> 
+        <link rel="stylesheet" href="../CSS/basicstyle.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="all">
+            <aside class="ahtml">
+                <a href="../../coursers.html" class="t0"><img src="IMG/iconback.svg" alt=""></a>
+                <ul>
+                    <a href="basichtml0.html" class="t1" ><li>Структура HTML-кода<br>
+                        Теги header , footer и main</li></a>
+                    <a href="basichtml1.html" class="t2"><li>Теги section , div , span<br>
+                        Теги nav , article , aside</li></a>
+                    <a href="basichtml2.html" class="t3"><li>Теги meta и link</li></a>
+                    <a href="basichtml3.html" class="t4"><li>Разметка текста</li></a>
+                    <a href="basichtml4.html" class="t5"><li>Изображения и ссылки</li></a>
+                    <a href="test1.html" class="t6"><li>Проверка знаний</li></a>
+                </ul>
+            </aside>
+
+            <main>
+            <section class="info">
+
+                <!--Разметка текста-->
+                <h1>Разметка текста</h1>
+                <dl>
+                    <dt>Теги &lt;h1&gt;&lt;h6&gt;</dt>
+                    <dd>При помощи данных тегов указывается заголовок страницы.Заголовки указываются от h1 до h6.
+                        <br>h1 является заголовком верхнего уровня , самым главным и используется на странице 1 раз.
+                        <br>h6 является подзаголовком самого нижнего уровня.Все теги разметки используются в body.
+                    </dd>
+                    <img src="IMG/h.png" alt="Иерархия заголовков"> 
+
+                    <dt>Тег &lt;p&gt;</dt>
+                    <dd>Предназначен для разметке абзацеф (параграфов)</dd>
+
+                    <dt>Тег &lt;ul&gt;</dt>
+                    <dd>Используется для разметки неупордоченных списков.Внутри &lt;ul&gt; используется тег &lt;li&gt; для указания элемента внутри списка.
+                        <br>Стандартно неупорядоченные элементы списка отмечаются маркером.Не важен порядок элементов</dd>
+                    <img src="IMG/ul1.png" alt="Код неупорядоченных списков">
+                    <img src="IMG/ul2.png" alt="Итог неупорядоченного списка">
+
+                    <dt>Тег &lt;ol&gt;</dt>
+                    <dd>Используется для разметки упордоченных списков.Внутри &lt;ol&gt; используется тег &lt;li&gt; для указания элемента внутри списка.
+                        <br>Стандартно упорядоченные элементы списка нумеруются.Важен порядок элементов.
+                        <br> Так же упорядоченные и неупорядоченные можно вкладывать друг в друга.
+                        <br>При помощи атрибута start можно изменить начальный отсчет в списке.
+                        <br>Атрибут reservet поможет вам изменить направление от счета элементов.
+                        <br>Атрибут type может изменть тип используемого маркера(например на латинские буквы).</dd>
+                    <img src="IMG/ol1.png" alt="Код упорядоченного списка">
+                    <img src="IMG/ol2.png" alt="Итог упорядоченного списка">
+                    <img src="IMG/sol.png" alt="Код упорядоченного списка">
+                    <img src="IMG/sol2.png" alt="Итог упорядоченного списка">
+
+
+                    <dt>Теги &lt;dl&gt;,&lt;dt&gt;,&lt;dd&gt;</dt>
+                    <dd>Эти теги используются для создания списка описания.Ими можно создавать вопрос-ответ ,
+                        <br> термин и его определение , и так далее.
+                        <br> При помощи dl обозначается сам список , внутри которого размещаются dt и dd.
+                        <br> dt обозначает термин , а dd описание этого термина
+                    </dd>
+                    <img src="IMG/dl.png" alt="Список описания">
+
+                    <dt>Тег &lt;br&gt; </dt>
+                    <dd>Используется для переноса строки на новую </dd>
+
+                    <dt>Теги &lt;q&gt; и &lt;blockquote&gt;</dt>
+                    <dd>Два этих тега используются для выделения цитат.
+                        <br>Тегом q выделяется короткая строчка цитата , blockquote используется для выделения цитат из нескольких абзацев. </dd>
+
+                    <dt>Теги &lt;em&gt; и &lt;i&gt;</dt>
+                    <dd>Эти теги предназначены для выделения текста курсивом, но em используется
+                        <br> для текста с особым акцентом , влияющий на смысл предложения , а i 
+                        <br> для обозначения текста курсивом(например термин)</dd>
+                    <img src="IMG/em1.png" alt="Код с em">
+                    <img src="IMG/em2.png" alt="Результат с em">
+
+                    <dt>Теги &lt;strong&gt; и &lt;b&gt;</dt>
+                    <dd>Предназначены для выделения текста жирным шрифтом.
+                        <br> strong используют для указания важности выделенного фрагмента текста , а
+                        <br> b используют с целью превлечения внимания. </dd>
+                    <img src="IMG/strong1.png" alt="Код strong">
+                    <img src="IMG/strong2.png" alt="Итог strong">
+
+                    <dt>Теги &lt;del&gt; и &lt;ins&gt;</dt>
+                    <dd>При помощи del можно зачеркивать тест(например из списка дел вычеркнуть что уже было сделано),
+                        <br> а при помощи ins можно подчеркнуть текст (например новое добавленное дело). </dd>
+                    <img src="IMG/del1.png" alt="Код с del">
+                    <br><img src="IMG/del2.png" alt="Итог с del">
+                    <br><img src="IMG/ins1.png" alt="Код с ins">
+                    <br><img src="IMG/ins2.png" alt="Итог с ins">
+                </dl>
+            </section>
+            </main>
+
+        </section>
+    </body>
+
+</html>

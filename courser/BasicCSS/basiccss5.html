@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Основы HTML</title> 
+        <link rel="stylesheet" href="../CSS/basicstyle.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="all">
+            <aside class="acss">
+                <a href="../../coursers.html" class="t7"><img src="IMG/iconback.svg" alt=""></a>
+                <ul>
+                    <!--В структуре указать про закрывающиеся и не теги и про блочные и строчные-->
+                    <a href="basiccss1.html" class="t8" ><li>CSS-правила и селекторы</li></a>
+                    <a href="basiccss2.html" class="t9"><li>Свойства и значения<br>
+                        Каскадирование</li></a>
+                    <a href="basiccss3.html" class="t10"><li>Оформление текста.Часть 1</li></a>
+                    <a href="basiccss4.html" class="t11"><li>Оформление текста.Часть 2</li></a>
+                    <a href="basiccss5.html" class="t12"><li>Стили для блоков</li></a>
+                    <a href="test2.html" class="t13"><li>Проверка знаний</li></a>
+                </ul>
+            </aside>
+
+            <main>
+            <section class="info">
+
+                <!--Стили для блоков-->
+                <h1>Стили для блоков</h1>
+                <dl>
+                    <dt>Внутренний отступ</dt>
+                    <dd>При помощи свойства padding можно задать внутренний отступ блоку.1-ое значение отступ от верхнего края , потом право , потом низ и в конце
+                        <br>отступ от левого края.Так же если отступ со всех сторон одинаковый , то можно указать только одно значение.
+                        <br>Значения могут быть как абсолютные , так и относительные.
+                    </dd>
+                    <img src="IMG/fs.png" alt="Задается размер шрифта">
+
+                    <dt>Внешний отступ</dt>
+                    <dd>Задается свойством margin.Порядок указания значений такой же как и у padding.
+                    </dd>
+                    <img src="IMG/fw.png" alt="Задается толщина шрифта">
+
+                    <dt>Свойство width</dt>
+                    <dd>Указывает ширину блочного тега.Ззначения как абсолютные , так и относительные.
+                    </dd>
+                    <img src="IMG/fst1.png" alt="Задается стиль">
+                    <br><img src="IMG/fst2.png" alt="Задается стиль">
+
+                    <dt>Свойство height</dt>
+                    <dd>Указывает высоту блочного тега.Значения как абсолютные , так и относительные.
+                    </dd>
+                    <img src="IMG/ff.png" alt="Задается семейство шрифтов">
+
+                    <dt>Свойство overflow</dt>
+                    <dd>Отвечает за отображение содержания блочного элемента.Например overflow: visible отвечает за то , что если содержимое блока
+                        <br> будет выходить за его размеры , то оно все равно будет видимым. overflow: hidden скрывает все , что выходит за границы блока
+                        <br> overflow:scroll задает прокрутку содержимого текста
+                    </dd>
+
+                    <dt>Свойство  display</dt>
+                    <dd>Определяет как элемент должен отображаться.Сейчас мы говорим только о нескольких свойствах данного свойства , но позже поговорим и о других.
+                        <br> display: block - делает стройчнй блок блочным(соответственно все свойства блочных тегов становятся доступными)
+                        <br> display: none - отключает видимость блока. display: inline - делает блочный блок строчным.
+                        <br> display: inline-block - тег остается строчным , но при этом на него дейстувуют отступы и другие свойства блочных элементов.
+                    </dd>
+                </dl>
+            </div>
+            </main>
+
+        </div>
+    </body>
+</html>

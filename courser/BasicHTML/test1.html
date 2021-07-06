@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">      
+        <link rel="stylesheet" href="teststyle.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="test" id="test">
+            <!--Блок с вопросами-->
+            <div class="test-questions" id="questions">
+                <!--<div class="test-questions-item">  Блок с элементами
+
+                    <div class="test-questions-item_question">Вопрос 1</div> Блок с вопросом
+                    <ul class="test-questions-item_answers">  Блок с ответом
+                        <li>
+                            <label>
+                                <input type="radio" name="q1">
+                                Ответ 1
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <input type="radio" name="q1">
+                                Ответ 2
+                            </label>
+                        </li>
+                    </ul>
+                </div>-->
+            </div>
+
+            <!--Блок с индикаторами(кол-во отвеченных вопросов и всего)-->
+            <div class="test-indicator" id="indicator">1/10</div>
+
+
+            <!--Блок с результатами-->
+            <div class="test-results" id="results">
+                <div class="test-results-item"><!--Блок с результатами-->
+
+                    <div class="test-results-item_question">Вопрос 1</div><!--Блок с вопросом-->
+                    <ul class="test-results-item_answers"><!--Блок с ответом-->
+                        <li>Ответ 1</li>
+                        <li>Ответ 2</li>
+                    </ul>
+                </div>
+            </div>
+
+            
+            <!--Блок с кнопками-->
+            <div class="test-controls">
+                <button class="btn-next" id="btn-next" disabled>Далее</button><!--Кнопка переход к след вопросу-->
+                <button class="btn-restart" id="btn-restart">С начала</button><!--Скорее всего уберем ее.Должна появляться в конце теста-->
+                <form action="basichtml0.html">
+                <button class="btn-tema">Повторить темы</button>
+            </form>
+            </div>
+
+
+        </div>
+
+        <script src="scripts.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Основы HTML</title> 
+        <link rel="stylesheet" href="../CSS/basicstyle.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="all">
+            <aside class="ahtml">
+                <a href="../../coursers.html" class="t0"><img src="IMG/iconback.svg" alt=""></a>
+                <ul>
+                    <!--В структуре указать про закрывающиеся и не теги и про блочные и строчные-->
+                    <a href="basichtml0.html" class="t1" ><li>Структура HTML-кода<br>
+                        Теги header , footer и main</li></a>
+                    <a href="basichtml1.html" class="t2"><li>Теги section , div , span<br>
+                        Теги nav , article , aside</li></a>
+                    <a href="basichtml2.html" class="t3"><li>Теги meta и link</li></a>
+                    <a href="basichtml3.html" class="t4"><li>Разметка текста</li></a>
+                    <a href="basichtml4.html" class="t5"><li>Изображения и ссылки</li></a>
+                    <a href="test1.html" class="t6"><li>Проверка знаний</li></a>
+                </ul>
+            </aside>
+
+            <main>
+            <section class="info">
+
+                <!--Тег meta-->
+                <h1>Тег &lt;meta&gt; </h1>
+                <dl>
+                    <dt>Для чего &lt;meta&gt;?</dt>
+                    <dd> При помощи &lt;meta&gt; можно определять метатеги, которые используются 
+                       <br> для хранения информации предназначенной для браузеров и поисковых систем.
+                       <br>Располагается такой тег в head. 
+                    </dd>
+                    <img src="IMG/hme.png" alt="Метатег в head"> 
+
+
+                    <dt>Атрибут charset у &lt;meta&gt;</dt>
+                    <dd>При помощи этого тега можно указать кодировку страницы.
+                       <br> Для корректной работы на каждой страницы стоит указывать кодировку utf-8 
+                    </dd>
+                    <img src="IMG/utf.png" alt="Пример кода utf-8">
+
+                    <dt>Важный отзывчивый метатег</dt>
+                    <dd>Данная комбинация используется только на сайтах , которые будут реагировать на различные виды экранов(адаптивные).
+                        <br> name="viewport" дает инструкцию по управлению маштабами.
+                        <br> content="width=device-width, initial-scale=1" устанавливает ширину страницы в соответствии с шириной экрана.
+                    </dd>
+                    <img src="IMG/vie.png" alt="vie">
+                </dl>
+
+
+                  <!--link-->
+
+                <h2>Тег &lt;link&gt;</h2>
+                <dl>
+                    <dt>Для чего тег &lt;link&gt;</dt>
+                    <dd>При помощи &lt;link&gt; можно подключать разные файлы , например CSS файлы или же шрифты </dd>
+
+                    <dt>Атрибут rel</dt>
+                    <dd>rel используется для указания отношения между документом текущем и файлом
+                        <br> rel="stylesheet" означает , что подключаемый файл имеет таблицу стилей(CSS-файл)
+                        <br> rel="alternate" альтернативный тип , например подключение XML HTML-файла
+                        <br> <img src="IMG/rel.png" alt="Ипольщование rel">
+                    </dd>
+
+                    <dt>Атрибут href</dt>
+                    <dd>href указывает путь к файлу , который мы хотим подключить.
+                       <br><img src="IMG/rel.png" alt="HREF"> </dd>
+                </dl>
+            </section>
+            </main>
+
+        </section>
+    </body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Основы HTML</title> 
+        <link rel="stylesheet" href="../CSS/basicstyle.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="all">
+            <aside class="ahtml">
+                <a href="../../coursers.html" class="t0"><img src="IMG/iconback.svg" alt=""></a>
+                <ul>
+                    <!--В структуре указать про закрывающиеся и не теги и про блочные и строчные-->
+                    <a href="basichtml0.html" class="t1" ><li>Структура HTML-кода<br>
+                        Теги header , footer и main</li></a>
+                    <a href="basichtml1.html" class="t2"><li>Теги section , div , span<br>
+                        Теги nav , article , aside</li></a>
+                    <a href="basichtml2.html" class="t3"><li>Теги meta и link</li></a>
+                    <a href="basichtml3.html" class="t4"><li>Разметка текста</li></a>
+                    <a href="basichtml4.html" class="t5"><li>Изображения и ссылки</li></a>
+                    <a href="test1.html" class="t6"><li>Проверка знаний</li></a>
+                </ul>
+            </aside>
+
+            <main>
+            <section class="info">
+
+                <!--Ссылки-->
+                <h1>Ссылки</h1>
+                <p><u>Каждый сайт не может обойтись без ссылок и сейчас мы об этом расскажем.</u></p>
+                <dl>
+                    <dt>Тег &lt;a&gt;</dt>
+                    <dd>Ссылка создается при помощи тега &lt;a&gt; и атрибута href , куда вставляется адрес перехода.
+                        <br>Ссылка может быть как на сторонний сайт , так и на другую страничку вашего сайта.</dd>
+                    <img src="IMG/a.png" alt="Использование тега a">
+
+                    <dt>Ссылка-якорь</dt>
+                    <dd>Такая ссылка используется для навигации по странице.
+                        <br>В место , в которое мы хотим перейти , добавляем атрибут id с названием , которое вы хотите использовать.
+                        <br>В теге a в атрибуте href через # указываем название id , которое мы до этого задали. </dd>
+                </dl>
+
+
+                  <!--Изображения-->
+
+                <h2>Изображения</h2>
+                <dl>
+                    <dt>Тег &lt;img&gt;</dt>
+                    <dd>Тег &lt;img&gt; используется для подключения изображения к сайту.
+                        <br>При помощи атрибута src указывается расположение и название нашего изображения. </dd>
+                    <img src="IMG/img1.png" alt="Использование тега img">
+                    <img src="IMG/img2.png" alt="Использование тега img">
+
+                    <dt>Атрибут alt</dt>
+                    <dd>Атрибут alt является важным и используется для указания альтернативного текста , если картинка 
+                        <br>не загрузится.
+                    </dd>
+                    <img src="IMG/alt.png" alt="Использование alt">
+
+                    <dt>Размеры изображения</dt>
+                    <dd>При помощи атрибута width можно задать ширину изображения, а 
+                        <br>При помощи атрибута height высоту изображения. </dd>
+                    <img src="IMG/size.png" alt="Задаем размеры">
+
+                    <dt>Ссылка-изображение</dt>
+                    <dd>Если тег &lt;img&gt; обернуть в тег &lt;a&gt; , то изображение будет работать как ссылка.
+                        <br>Если нажать на такое изображение , то вы перейдете на указанный в теге &lt;a&gt; адрес  </dd>
+                    <img src="IMG/aimg.png" alt="Создание ссылки изображения">
+                </dl>
+            </div>
+            </main>
+
+        </div>
+    </body>
+
+</html>

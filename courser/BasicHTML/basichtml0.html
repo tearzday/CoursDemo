@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Основы HTML</title> 
+        <link rel="stylesheet" href="../CSS/basicstyle.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="all">
+            <aside class="ahtml">
+                <a href="../../coursers.html" class="t0"><img src="IMG/iconback.svg" alt=""></a>
+                <ul>
+                    <!--В структуре указать про закрывающиеся и не теги и про блочные и строчные-->
+                    <a href="basichtml0.html" class="t1" ><li>Структура HTML-кода<br>
+                        Теги header , footer и main</li></a>
+                    <a href="basichtml1.html" class="t2"><li>Теги section , div , span<br>
+                        Теги nav , article , aside</li></a>
+                    <a href="basichtml2.html" class="t3"><li>Теги meta и link</li></a>
+                    <a href="basichtml3.html" class="t4"><li>Разметка текста</li></a>
+                    <a href="basichtml4.html" class="t5"><li>Изображения и ссылки</li></a>
+                    <a href="test1.html" class="t6"><li>Проверка знаний</li></a>
+                </ul>
+            </aside>
+
+            <main>
+            <section class="info">
+
+
+                <!--Структура HTML-кода-->
+                <h1>Структура HTML-кода</h1>
+                <p><u>Каждая веб-страница в себе содержит основные теги:</u></p>
+                <dl>
+                    <dt>&lt;!DOCTYPE html&gt;</dt>
+                    <dd>Каждый HTML-документ начинается с декларации типа документа, или «доктайпа».
+                        <br> Тип документа необходим, чтобы браузер мог определить версию HTML и правильно отобразить страницу.</dd>
+
+                    <dt>&lt;html&gt; &lt;/html&gt;</dt>
+                    <dd>Тег &lt;html&gt; является закрывающимся и  определяет начало и конец HTML-файла,
+                        <br> внутри него хранится заголовок &lt;head&gt; и тело документа &lt;body&gt;.
+                    <br> Так же при помощи атрибута lang задается язык , например &lt;html lang="ru"&gt;. </dd>
+
+                    <dt>&lt;head&gt; &lt;/head&gt;</dt>
+                    <dd>Тег <head> хранит элементы, цель которых — помочь браузеру в работе с данными. 
+                        <br> Содержимое тега  не отображается на веб-странице, кроме тега &lt;title&gt; устанавливающего заголовок окна веб-страницы.              
+                        <br> Контейнер &lt;head&gt; может содержать:  &lt;link&gt;, &lt;meta&gt;, &lt;script&gt;,  &lt;title&gt; и т.д .</dd>
+
+                    <dt>&lt;body&gt; &lt;/body&gt;</dt>
+                    <dd>В теге &lt;body&gt; хранится содержание страницы, которое отображается в окне браузера. Все тексты и картинки добавлются внутрь этого тега.</dd>
+                </dl>
+                <P><u>Визуальный пример структуры HTML-кода</u></P>
+                <img src="IMG/htmlstru.png" alt="Структура HTML-кода">
+
+
+                  <!--heDER FOOTER MAIN-->
+
+                <h2>Теги &lt;header&gt; , &lt;footer&gt; , &lt;main&gt;</h2>
+                <dl>
+                    <dt>Тег &lt;header&gt;</dt>
+                    <dd>Тег &lt;header&gt; располагается в &lt;body&gt; и является "шапкой" сайта.
+                        <br>Часто тег &lt;header&gt; используют как меню сайта. </dd>
+
+                    <dt>Тег &lt;main&gt;</dt>
+                    <dd>Этот тег содержит главную информацию сайта, которая не повторяется на других страницах.
+                        <br> На странице может содержаться только один контейнер &lt;main&gt;.</dd>
+
+                    <dt>Тег &lt;footer&gt;</dt>
+                    <dd>Тег &lt;footer&gt; располагается в &lt;body&gt; и является "подвалом" сайта.
+                        <br>Часто тег &lt;header&gt; используют как место , где указывают контактную информацию </dd>
+                </dl>
+                <p><u>Визуальное расположение  тегов header , main , footer в body</u></p>
+                <img src="IMG/hmf.svg" alt="Расположение тегов header , main , footer">
+            </section>
+            </main>
+
+        </section>
+    </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        

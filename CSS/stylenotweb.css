@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+img{
+    pointer-events: none;
+}
+
+body{
+    font-family: 'Russo One', sans-serif;
+    overflow: hidden;
+    color: #585858;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+div.h{
+    width: 55vw;
+    height: 100vh;
+}
+
+.h h1{
+    font-size: 5vw;
+    font-weight: lighter;
+    margin-top: 15vw;
+    margin-left: 3vw;
+}
+
+.h h2{
+    font-size: 2vw;
+    font-weight: lighter;
+    line-height: 4vw;
+    margin-left: 3vw;
+    
+}
+
+
+button{
+    width: 25vw;
+    height: 12vh;
+    margin-top: 10vw;
+    margin-left: 15vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #585858;
+    border: 3px solid #9966ff;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+div.img{
+    width: 45vw;
+    height: 100%;
+}
+
+img{
+    width: 90%;
+    height: 90%;
+    margin-top: 2vw;
+    overflow: hidden;
+}
+
+button:hover{
+    color: white;
+    background-color: #9966ff;
+    box-shadow: 5px 2px 20px #9966ff;
+}
+
+
+@media ( max-width: 1070px) {
+    img{
+        display: none;
+    }
+
+    .back{
+        position: absolute;
+        width: 100vw;
+        height: 70vw;
+        top: 5vw;
+        left: 5vw;
+        background-image: url(../IMG/Web_SVG.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        opacity: 0.5;
+        z-index: 0;
+    }
+
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    div.h{
+        width: 100vw;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .h h1{
+        font-size: 8vw;
+        font-weight: bold;
+        margin-left: 0vw;
+    }
+    
+    .h h2{
+        font-size: 3.5vw;
+        font-weight: 500;
+        margin-left: 0vw;
+        
+    }
+
+    button{
+        width: 40vw;
+        margin-top: 13vw;
+        margin-left: 0vw;
+        font-size: 2.5vw;
+    }
+}
+
+
+@media (max-width: 510px){
+    .back{
+        width: 100vw;
+        height: 100vw;
+        top: 20vw;
+        left: 20vw;
+    }
+
+    div.h{
+        margin-top: 18vw;
+    }
+
+    .h h1{
+        font-size: 10vw;
+    }
+    
+    .h h2{
+        font-size: 6vw;
+        line-height: 12vw;
+        
+    }
+    
+    button{
+        width: 70vw;
+        height: 10vh;
+        margin-top: 30vw;
+        font-size: 6vw;
+    }
+}

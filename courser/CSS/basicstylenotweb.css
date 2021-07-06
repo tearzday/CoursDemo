@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+    color: #585858;
+    display: flex;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #585858;
+    
+}
+
+a:link{
+    text-decoration: none;
+    color: none;
+}
+
+li{
+	list-style: none;
+}
+
+img{
+    pointer-events: none;
+}
+
+
+body{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+aside{
+    width: 20vw;
+    height: 55vh;
+    margin-left: 2.5vw;
+    margin-top: 5vh;
+    font-size: 1vw;
+    border-radius: 50px;
+    box-shadow: 3px 3px 10px #585858; 
+    background-color: #dff8ff;
+    position: fixed;
+}
+
+.ahtml{
+    background-color: #dff8ff;
+}
+
+.acss{
+    background-color: #fbf2e7;
+}
+
+aside img{
+    width: 3vw;
+    height: 3vh;
+    margin-left: 1.5vw;
+    margin-top: 25px;
+    margin-bottom: 2vw;
+}
+
+aside ul{
+    margin-top: 10px;
+    margin-left: 1.5vw;
+}
+
+aside li{
+    margin-bottom: 20px;
+}
+
+.t0:hover ,
+.t1:hover ,
+.t2:hover ,
+.t3:hover ,
+.t4:hover ,
+.t5:hover ,
+.t6:hover
+{
+    border-radius: 25px;
+    background-color: azure;
+}
+
+.t7:hover ,
+.t8:hover ,
+.t9:hover ,
+.t10:hover ,
+.t11:hover ,
+.t12:hover ,
+.t13:hover
+{
+    border-radius: 25px;
+    background-color: #ffefdb;
+}
+
+
+
+.info{
+    width: 75vw;
+    height: 100vh;
+    color: #585858;
+    margin-left: 25vw;
+}
+
+.info h1{
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info h2{
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info p{
+    margin-top: 20px;
+    font-size: 2vw;
+}
+
+dl{
+    margin-left: 10px;
+}
+
+dt{
+    font-size: 2vw;
+    margin-top: 15px;
+}
+
+dd{
+    font-size: 1vw;
+    margin-top: 5px;
+}
+
+img{
+    margin-top: 10px;
+}
+

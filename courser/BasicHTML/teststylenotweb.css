@@ -1,0 +1,147 @@
+
+body{
+    margin: 0;
+    color: #585858;
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+/*Задаем стили для наших вопросов - ответов*/
+.test-questions{
+    margin: 10vh auto 2vh auto;
+    width: 50vw;
+    height: 40vh;
+    border-radius: 25px;
+    background-color: #dff8ff;
+    box-shadow: 3px 3px 10px #585858; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.test-questions-item{
+    margin-top: 2vw;
+}
+
+.test-questions-item_question{
+    font-size: 1.4vw;
+    font-weight: bold;
+    margin-bottom: 3vw;
+}
+
+.test-questions-item_answers{
+    font-size: 1vw;
+    text-align: left;
+}
+
+li:hover{
+    background-color: azure;
+    border-radius: 10px;
+}
+
+/*Стиль для количества пройденных вопросов*/
+.test-indicator{
+    width: 50vw;
+    height: 3vh;
+    margin: 0vw auto;
+    text-align: center;
+    font-size:1vw;
+}
+
+
+/*Задаем стили для наших кнопок*/
+button{
+    width: 8vw;
+    height: 5vh;
+    font-size: 1vw;
+    font-weight: bold;
+    color: #585858;
+    border: 3px solid #dff8ff;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+button:hover{
+    color: white;
+    background-color: #dff8ff;
+    box-shadow: 5px 2px 20px #dff8ff;
+}
+
+/*Задаем стили для кнопки , которая появится в конце теста*/
+.btn-restart{
+    display: none;
+}
+
+.btn-tema{
+    width: 10vw;
+    margin-left: 1vw;
+}
+
+.test-controls{
+    width: 19vw;
+    margin: 10px auto 0px auto;
+    display: flex;
+}
+
+
+/*Задаем стили для наших результатов*/
+
+.test-results{
+    width: 50vw;
+    margin: 20px auto;
+    display: none;
+}
+
+.test-results-item{
+    width: 50vw;
+    height: 25vh;
+    margin-bottom: 3vw;
+    background-color: #dff8ff;
+    border-radius: 25px;
+    box-shadow: 3px 3px 10px #585858; 
+}
+
+.test-results-item_question{
+    font-size: 1.4vw;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/*Стили ендюю.бзлдж*/
+
+.questions--hidden,
+.indicator--hidden,
+.btn-next--hidden{
+    display: none;
+}
+
+.results--visible,
+.btn-restart--visible{
+    display: block;
+}
+
+/*Стили для правильных и не правильных вариантов ответов в результате*/
+.answer-valid{
+    color: green;
+    font-weight: bold;
+}
+
+.answer-invalid{
+    color: red;
+    font-weight: bold;
+}

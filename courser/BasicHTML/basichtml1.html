@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Основы HTML</title> 
+        <link rel="stylesheet" href="../CSS/basicstyle.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="all">
+            <aside class="ahtml">
+                <a href="../../coursers.html" class="t0"><img src="IMG/iconback.svg" alt=""></a>
+                <ul>
+                    <!--В структуре указать про закрывающиеся и не теги и про блочные и строчные-->
+                    <a href="basichtml0.html" class="t1" ><li>Структура HTML-кода<br>
+                        Теги header , footer и main</li></a>
+                    <a href="basichtml1.html" class="t2"><li>Теги section , div , span<br>
+                        Теги nav , article , aside</li></a>
+                    <a href="basichtml2.html" class="t3"><li>Теги meta и link</li></a>
+                    <a href="basichtml3.html" class="t4"><li>Разметка текста</li></a>
+                    <a href="basichtml4.html" class="t5"><li>Изображения и ссылки</li></a>
+                    <a href="test1.html" class="t6"><li>Проверка знаний</li></a>
+                </ul>
+            </aside>
+
+            <main>
+            <section class="info">
+
+                <!--Теги section div span-->
+                <h1>Теги &lt;section&gt; , &lt;div&gt; , &lt;span&gt;</h1>
+                <dl>
+                    <dt>Тег &lt;section&gt;&lt;/section&gt;</dt>
+                    <dd> Тег &lt;section&gt; используется для крупных смысловых разделов. 
+                       <br> Когда использовать &lt;section&gt;? Когда содержимое блока содержит информацию по конкретной теме.
+                       <br> Например: для блока новостей, контактной информации, глав текста, вкладок в диалоговом окне 
+                    </dd> 
+
+
+                    <dt>Тег &lt;div&gt;&lt;/div&gt;</dt>
+                    <dd>Тег &lt;div&gt; является блочным тегом , который используется для выделения фрагмента документа с целью изменения вида содержимого
+                       <br> Тег &lt;div&gt; не передает информацию , в отличии от тега &lt;section&gt; </dd>
+
+                    <dt>Тег &lt;span&gt;&lt;/span&gt;</dt>
+                    <dd>Тег &lt;span&gt является строчным тегом , который обычно используется для выделения части информации внутри других тегов и установления для нее свой стиль.</dd>
+
+                </dl>
+                <p> <u>Визуальный пример использования &lt;div&gt;</u> </p>
+                <img src="IMG/div.png" alt="Использование div">
+
+                <p><u>Визуальный пример использования &lt;span&gt;</u> </p>
+                <img src="IMG/span1.png" alt="Код для span">
+                <img src="IMG/span2.png" alt="Изменения на странице">
+
+
+                  <!--nav article aside-->
+
+                <h2>Теги &lt;nav&gt;, &lt;article&gt; , &lt;aside&gt;</h2>
+                <dl>
+                    <dt>Тег &lt;nav&gt;&lt;/nav&gt;</dt>
+                    <dd>Тег &lt;nav&gt; используется для определения секции , в которой находится ссылки навигациию.
+                        <br>Не включает в себя все ссылки страницы , а только на другие страницы или же внутри страницы. </dd>
+
+                    <dt>Тег &lt;article&gt;&lt;/article&gt;</dt>
+                    <dd>Тег &lt;article&gt; обозначает самостоятельный фрагмент информации.Например: новости, статьи, записи блога, форума или др.
+                        <br>Тег &lt;article&gt;  отличается от  &lt;section&gt; тем , что его можно вырвать из одного места и вставить в другое (на другую страницу сайта или на другой сайт).</dd>
+
+                    <dt>Тег &lt;aside&gt;&lt;/aside&gt;</dt>
+                    <dd>Определяет блок сбоку от контента.Обычно называют сайтбаром.
+                       <br> Пример использования: ссылки на архив, меток и так далее. </dd>
+                </dl>
+                <p><u>Визуальное использование &lt;nav&gt; , &lt;article&gt; , &lt;aside&gt; </u></p>
+                <img src="IMG/naa.png" alt="Расположение тегов nav , article , aside">
+            </section>
+            </main>
+
+        </section>
+    </body>
+
+</html>
